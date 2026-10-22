@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Checagem ao vivo do debate Lula x Flávio Bolsonaro na TV Globo, pelo Vem Cá Entender.">
+<meta property="og:title" content="Vem Cá Entender ao Vivo">
+<meta property="og:description" content="Checagem ao vivo do debate presidencial: selos, explicações e fontes.">
+<link rel="icon" href="/lupa.svg" type="image/svg+xml">
+<title>Vem Cá Entender ao Vivo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: plantão de TV — faixa de status, placar dos dois lados, feed cronológico de checagens, rodapé de método */
+:root{
+  --bg:#0c0c0d; --surface:#161618; --surface-2:#1f1f22; --line:#2c2c30;
+  --fg:#f3f1ea; --muted:#a3a19a; --brand:#f5c518; --brand-ink:#0c0c0d;
+  --ok:#3fbf7f; --warn:#ff9a3c; --bad:#ff5a5f; --ctx:#5aa9ff; --unk:#b99cff;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:flex;flex-direction:column;gap:28px}
+a{color:var(--brand)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+
+/* topo */
+.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{width:56px;height:56px;flex:none}
+.brand{display:flex;flex-direction:column;min-width:0}
+.brand b{font-family:var(--display);font-weight:900;font-size:26px;letter-spacing:.02em;line-height:1;text-transform:uppercase}
+.brand span{color:var(--muted);font-size:13px;font-family:var(--mono)}
+.status{margin-left:auto;display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:999px;background:var(--surface-2);color:var(--muted)}
+.status i{width:9px;height:9px;border-radius:50%;background:currentColor}
+.status[data-s="aovivo"]{background:var(--bad);color:#fff}
+.status[data-s="aovivo"] i{animation:pulse 1.2s infinite}
+.status[data-s="encerrado"]{color:var(--fg)}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.status i{animation:none!important}}
+
+/* manchete */
+.hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(44px,11vw,88px);line-height:.9;margin:0;text-wrap:balance;letter-spacing:.01em}
+.hero h1 em{font-style:normal;color:var(--brand)}
+.hero p{margin:12px 0 0;color:var(--muted);max-width:60ch}
+.meta{display:flex;gap:8px 18px;flex-wrap:wrap;margin-top:14px;font-family:var(--mono);font-size:13px;color:var(--fg)}
+.meta span{display:inline-flex;gap:6px}
+.meta span::before{content:"▸";color:var(--brand)}
+
+/* placar */
+.placar{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lado{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.lado h2{margin:0;font-family:var(--display);font-weight:800;font-size:28px;text-transform:uppercase;line-height:1;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lado h2 small{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0;text-transform:none}
+.barra{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--surface-2)}
+.barra span{display:block;height:100%}
+.contagem{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;font-family:var(--mono);font-size:12px;text-align:center;font-variant-numeric:tabular-nums}
+.contagem div{display:flex;flex-direction:column;gap:2px;color:var(--muted)}
+.contagem b{font-size:18px;color:var(--fg)}
+
+/* selos */
+.selo{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:6px;border:1.5px solid currentColor;white-space:nowrap}
+.s-verdadeiro{color:var(--ok)} .s-exagerado{color:var(--warn)} .s-falso{color:var(--bad)} .s-semcontexto{color:var(--ctx)} .s-naocomprovavel{color:var(--unk)}
+.bg-verdadeiro{background:var(--ok)} .bg-exagerado{background:var(--warn)} .bg-falso{background:var(--bad)} .bg-semcontexto{background:var(--ctx)} .bg-naocomprovavel{background:var(--unk)}
+
+/* filtros */
+.filtros{display:flex;flex-direction:column;gap:10px}
+.linha{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font:inherit;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.chip:hover{border-color:var(--brand)}
+
+/* feed */
+.feed-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.feed-head h2{margin:0;font-family:var(--display);font-weight:800;font-size:32px;text-transform:uppercase}
+.feed-head span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.feed{display:flex;flex-direction:column;gap:14px;list-style:none;margin:0;padding:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.quem{font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase;line-height:1}
+.hora{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.card-top .selo{margin-left:auto}
+.frase{margin:0;font-size:19px;font-weight:600;line-height:1.35;border-left:3px solid var(--brand);padding-left:12px}
+.frase::before{content:"“"} .frase::after{content:"”"}
+.expl{margin:0;color:var(--fg);opacity:.9}
+.fontes{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.fontes b{font-family:var(--mono);font-weight:500;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.corr{font-size:13px;color:var(--warn);font-family:var(--mono)}
+.vazio{border:1.5px dashed var(--line);border-radius:14px;padding:28px 20px;text-align:center;color:var(--muted);display:flex;flex-direction:column;gap:8px;align-items:center}
+.vazio svg{width:64px;height:64px;opacity:.9}
+.vazio strong{color:var(--fg);font-size:18px}
+
+/* legenda + método */
+.bloco{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.bloco h2{margin:0;font-family:var(--display);font-weight:800;font-size:26px;text-transform:uppercase}
+.legenda{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.legenda div{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.legenda p{margin:0;font-size:14px;color:var(--muted)}
+.metodo{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;color:var(--fg);max-width:65ch}
+footer{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:13px;flex-wrap:wrap}
+footer svg{width:32px;height:32px}
+footer b{color:var(--fg)}
+
+@media (max-width:560px){
+  .placar{grid-template-columns:1fr}
+  .status{margin-left:0}
+  .frase{font-size:17px}
+}
+*{box-sizing:border-box}html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+.card.novo{animation:chega 2.4s ease-out}@keyframes chega{0%{border-color:var(--brand);box-shadow:0 0 0 3px rgba(245,197,24,.35)}100%{border-color:var(--line);box-shadow:none}}
+@media (prefers-reduced-motion:reduce){.card.novo{animation:none}}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="lupa" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="100" fill="#111113"/>
+    <line x1="118" y1="120" x2="152" y2="156" stroke="#f5c518" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="90" cy="88" r="44" fill="#111113" stroke="#f5c518" stroke-width="13"/>
+    <path d="M77 76c0-8 6-14 14-14s14 5 14 13c0 7-4 10-8 13-3 2-5 4-5 8v3" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="92" cy="113" r="6.5" fill="#fff"/>
+  </symbol>
+</svg>
+
+<div class="wrap">
+  <header class="top">
+    <svg class="logo" role="img" aria-label="Vem Cá Entender"><use href="#lupa"/></svg>
+    <div class="brand"><b>Vem Cá Entender</b><span>@vemcaentender</span></div>
+    <div class="status" id="status" data-s="embreve"><i></i><span id="status-txt">Começa sexta, 21h20</span></div>
+  </header>
+
+  <section class="hero">
+    <h1>Checagem <em>ao vivo</em> do debate</h1>
+    <p>A gente confere as frases dos candidatos durante o debate e dá um selo para cada uma, com explicação e fonte. Os dois lados com o mesmo rigor. Esta página se atualiza sozinha.</p>
+    <div class="meta">
+      <span>Lula (PT) × Flávio Bolsonaro (PL)</span>
+      <span>TV Globo · sex 23/10 · 21h20</span>
+      <span>2º turno: dom 25/10</span>
+    </div>
+  </section>
+
+  <section class="placar" aria-label="Placar de selos por candidato" id="placar"></section>
+
+  <section class="filtros" aria-label="Filtros">
+    <div class="linha" id="f-cand"></div>
+    <div class="linha" id="f-selo"></div>
+  </section>
+
+  <section>
+    <div class="feed-head">
+      <h2>Checagens</h2>
+      <span id="atualizado"></span>
+    </div>
+    <ol class="feed" id="feed" style="margin-top:12px"></ol>
+  </section>
+
+  <section class="bloco" aria-labelledby="leg-t">
+    <h2 id="leg-t">O que cada selo quer dizer</h2>
+    <div class="legenda" id="legenda"></div>
+  </section>
+
+  <section class="bloco" aria-labelledby="met-t">
+    <h2 id="met-t">Como a gente checa</h2>
+    <ul class="metodo">
+      <li>Usamos fontes oficiais e públicas: IBGE, Banco Central, Tesouro, Portal da Transparência, TSE, ministérios, além de agências de checagem e imprensa profissional.</li>
+      <li>Cada selo vem com explicação curta e link para a fonte, pra você conferir.</li>
+      <li>Os dois candidatos são checados com o mesmo critério. O placar acima mostra tudo, sem esconder lado nenhum.</li>
+      <li>Errou? A gente corrige no próprio card e avisa que foi corrigido.</li>
+      <li>Checar leva alguns minutos, então o painel anda um pouquinho atrás do debate.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <svg role="img" aria-label="Vem Cá Entender"><use href="#lupa"/></svg>
+    <span><b>Vem Cá Entender</b> · assuntos explicados com dados. Siga @vemcaentender e mande a frase que você quer ver checada.</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  const SELOS = {
+    verdadeiro:     {nome:"Verdadeiro", emoji:"✅", desc:"A informação está correta e bate com os dados oficiais."},
+    exagerado:      {nome:"Exagerado", emoji:"⚠️", desc:"Tem base real, mas o número ou o efeito foi aumentado."},
+    falso:          {nome:"Falso", emoji:"❌", desc:"A informação não confere com os dados disponíveis."},
+    semcontexto:    {nome:"Sem contexto", emoji:"🔍", desc:"O dado é real, mas falta uma parte que muda o sentido."},
+    naocomprovavel: {nome:"Não dá pra comprovar", emoji:"❓", desc:"Não existem dados públicos suficientes para confirmar ou negar."}
+  };
+  const ORDEM = ["verdadeiro","exagerado","falso","semcontexto","naocomprovavel"];
+  const CAND = {lula:"Lula", flavio:"Flávio Bolsonaro"};
+  const STATUS = {embreve:"Começa sexta, 21h20", aovivo:"Ao vivo", encerrado:"Debate encerrado"};
+  const INTERVALO = 10000;
+
+  let dados = {status:"embreve", checagens:[]};
+  let lista = [];
+  let vistos = null;
+  let assinatura = "";
+  const filtro = {cand:"todos", selo:"todos"};
+
+  const el = (tag, attrs={}, kids=[]) => {
+    const n = document.createElement(tag);
+    for (const [k,v] of Object.entries(attrs)) {
+      if (k === "text") n.textContent = v; else if (k === "class") n.className = v; else n.setAttribute(k, v);
+    }
+    [].concat(kids).forEach(c => c && n.append(c));
+    return n;
+  };
+  const seloEl = s => { const d = SELOS[s]; return d ? el("span",{class:"selo s-"+s, text:d.emoji+" "+d.nome}) : null; };
+
+  function desenharStatus(){
+    document.getElementById("status").dataset.s = dados.status || "embreve";
+    document.getElementById("status-txt").textContent = STATUS[dados.status] || STATUS.embreve;
+    document.getElementById("atualizado").textContent = dados.atualizado ? "Atualizado " + dados.atualizado : "";
+  }
+
+  function desenharPlacar(){
+    const placar = document.getElementById("placar");
+    placar.replaceChildren(...["lula","flavio"].map(c => {
+      const deles = lista.filter(x => x.candidato === c);
+      const total = deles.length;
+      const barra = el("div",{class:"barra", "aria-hidden":"true"});
+      const cont = el("div",{class:"contagem"});
+      ORDEM.forEach(s => {
+        const n = deles.filter(x => x.selo === s).length;
+        if (n) { const seg = el("span",{class:"bg-"+s}); seg.style.width = (n/total*100)+"%"; barra.append(seg); }
+        cont.append(el("div",{title:SELOS[s].nome},[el("b",{text:String(n)}), el("span",{text:SELOS[s].emoji})]));
+      });
+      return el("div",{class:"lado"},[ el("h2",{},[CAND[c], el("small",{text: total + (total===1?" checagem":" checagens")})]), barra, cont ]);
+    }));
+  }
+
+  const fc = document.getElementById("f-cand"), fs = document.getElementById("f-selo");
+  const chip = (grupo, valor, rotulo) => {
+    const b = el("button",{class:"chip", type:"button", "aria-pressed": String(filtro[grupo]===valor), id:"f-"+grupo+"-"+valor, text:rotulo});
+    b.addEventListener("click", () => { filtro[grupo] = valor; desenharFiltros(); desenharFeed(false); });
+    return b;
+  };
+  function desenharFiltros(){
+    fc.replaceChildren(chip("cand","todos","Todos"), chip("cand","lula","Lula"), chip("cand","flavio","Flávio"));
+    fs.replaceChildren(chip("selo","todos","Todos os selos"), ...ORDEM.map(s => chip("selo", s, SELOS[s].emoji+" "+SELOS[s].nome)));
+  }
+
+  const feed = document.getElementById("feed");
+  function desenharFeed(destacar){
+    const vis = lista
+      .filter(x => filtro.cand==="todos" || x.candidato===filtro.cand)
+      .filter(x => filtro.selo==="todos" || x.selo===filtro.selo)
+      .slice().reverse();
+    if (!vis.length){
+      const vazio = el("li",{class:"vazio"});
+      const ic = document.createElementNS("http://www.w3.org/2000/svg","svg");
+      const u = document.createElementNS("http://www.w3.org/2000/svg","use"); u.setAttribute("href","#lupa"); ic.append(u);
+      vazio.append(ic,
+        el("strong",{text: lista.length ? "Nenhuma checagem com esse filtro" : "As checagens aparecem aqui durante o debate"}),
+        el("span",{text: lista.length ? "Tente outro candidato ou outro selo." : "Deixe esta página aberta na sexta a partir das 21h20. Ela se atualiza sozinha e cada frase checada entra no topo da lista."}));
+      feed.replaceChildren(vazio); return;
+    }
+    feed.replaceChildren(...vis.map(x => {
+      const fontes = el("div",{class:"fontes"},[el("b",{text:"Fontes"})]);
+      (x.fontes||[]).forEach(f => fontes.append(el("a",{href:f.url, target:"_blank", rel:"noopener", text:f.nome})));
+      const novo = destacar && vistos && !vistos.has(x.id);
+      return el("li",{class:"card"+(novo?" novo":""), id:"c-"+(x.id||"")},[
+        el("div",{class:"card-top"},[ el("span",{class:"quem", text:CAND[x.candidato]||x.candidato}), el("span",{class:"hora", text:x.hora||""}), seloEl(x.selo) ]),
+        el("p",{class:"frase", text:x.frase||""}),
+        el("p",{class:"expl", text:x.explicacao||""}),
+        x.correcao ? el("div",{class:"corr", text:"Corrigido: "+x.correcao}) : null,
+        (x.fontes&&x.fontes.length) ? fontes : null
+      ]);
+    }));
+  }
+
+  document.getElementById("legenda").replaceChildren(...ORDEM.map(s => el("div",{},[seloEl(s), el("p",{text:SELOS[s].desc})])));
+
+  function aplicar(novo){
+    const sig = JSON.stringify(novo);
+    if (sig === assinatura) return;
+    assinatura = sig;
+    dados = novo;
+    lista = Array.isArray(novo.checagens) ? novo.checagens : [];
+    desenharStatus(); desenharPlacar(); desenharFeed(true);
+    vistos = new Set(lista.map(x => x.id));
+  }
+
+  async function buscar(){
+    try {
+      const r = await fetch("/dados.json?t=" + Date.now(), {cache:"no-store"});
+      if (r.ok) aplicar(await r.json());
+    } catch(e) {}
+  }
+
+  desenharFiltros(); desenharStatus(); desenharPlacar(); desenharFeed(false);
+  buscar();
+  setInterval(() => { if (!document.hidden) buscar(); }, INTERVALO);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) buscar(); });
+})();
+</script>
+</body>
+</html>

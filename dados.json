@@ -1,5 +1,15 @@
 {
-  "status": "embreve",
-  "atualizado": "22/10, 09:45",
-  "checagens": []
+  "status": "aovivo",
+  "atualizado": "22/10, 11:25",
+  "checagens": [
+    {
+      "id": "teste1",
+      "candidato": "lula",
+      "hora": "TESTE",
+      "frase": "ESTE É UM CARD DE TESTE. Ele será apagado antes do debate.",
+      "selo": "verdadeiro",
+      "explicacao": "Card de teste para conferir se o site atualiza sozinho. Não é uma checagem real.",
+      "fontes": []
+    }
+  ]
 }

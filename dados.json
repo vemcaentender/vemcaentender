@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 23:08",
+  "atualizado": "23/10, 23:16",
   "checagens": [
     {
       "id": "f1",
@@ -467,6 +467,87 @@
           "url": "https://mercadoeconsumo.com.br/17/09/2026/economia/governo-reajusta-bolsa-familia-em-15-e-eleva-valor-minimo-para-r-691/amp/"
         }
       ]
+    },
+    {
+      "id": "l15",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "A economia brasileira voltou a crescer (depois de anos sem crescer acima de 3%) porque nós conquistamos respeito.",
+      "selo": "falso",
+      "explicacao": "O PIB cresceu acima de 3% em outros anos depois de 2010: 3,9% em 2011, ainda com Dilma, e 4,8% em 2021, no governo Bolsonaro, na recuperação depois da pandemia. A economia cresceu acima de 3% em 2023 e 2024, mas não é verdade que isso não acontecia havia anos. A causa ('conquistamos respeito') é opinião.",
+      "fontes": []
+    },
+    {
+      "id": "l16",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Henrique Meirelles ficou 8 anos (na presidência do Banco Central) e eu não troquei.",
+      "selo": "verdadeiro",
+      "explicacao": "Henrique Meirelles presidiu o Banco Central de 2003 a 2010, durante os oito anos dos dois primeiros mandatos de Lula, sem ser trocado.",
+      "fontes": []
+    },
+    {
+      "id": "l17",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Ele (Flávio) foi o único deputado estadual do Rio de Janeiro a votar contra o aumento da licença-maternidade.",
+      "selo": "verdadeiro",
+      "explicacao": "Em 2009, Flávio Bolsonaro, então deputado estadual, foi o único da Assembleia do Rio (Alerj) a votar contra o projeto que ampliou a licença-maternidade de 4 para 6 meses para servidoras estaduais. O fato foi confirmado por várias agências de checagem.",
+      "fontes": []
+    },
+    {
+      "id": "l18",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "No primeiro (Desenrola) atendemos 15 milhões de pessoas.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o Ministério da Fazenda, o Desenrola Brasil (2023-2024) beneficiou cerca de 15 milhões de pessoas. O dado é do próprio governo.",
+      "fontes": []
+    },
+    {
+      "id": "l19",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "O segundo Desenrola atendeu quase 16 milhões de pessoas.",
+      "selo": "naocomprovavel",
+      "explicacao": "Não encontramos um balanço oficial do segundo Desenrola com esse número até agora.",
+      "fontes": []
+    },
+    {
+      "id": "l20",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Nós fizemos a Lei Geral da Pequena e Média Empresa, porque nós queremos que o empreendedorismo vença nesse país.",
+      "selo": "verdadeiro",
+      "explicacao": "A Lei Geral da Micro e Pequena Empresa (Lei Complementar 123), que criou o Simples Nacional, é de dezembro de 2006, no primeiro governo Lula. O nome certo é 'Micro e Pequena', não 'Pequena e Média'.",
+      "fontes": []
+    },
+    {
+      "id": "l21",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Na Argentina, a pobreza chegou a 40%.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o INDEC, órgão oficial de estatística da Argentina, a pobreza passou de 40%: estava em 41,7% no fim de 2023 e chegou a 52,9% no 1º semestre de 2024, já com Milei. Depois caiu, e hoje está perto de 32%.",
+      "fontes": []
+    },
+    {
+      "id": "l22",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Muita gente morreu (na pandemia) por responsabilidade (do governo Bolsonaro). Jair Bolsonaro poderia ter salvado pelo menos metade.",
+      "selo": "naocomprovavel",
+      "explicacao": "A CPI da Pandemia atribuiu crimes a Bolsonaro e apontou ofertas de vacina sem resposta, e o Brasil teve mais de 700 mil mortes. Mas não existe número oficial de mortes que poderiam ter sido evitadas. 'Pelo menos metade' vem de estimativas de pesquisadores, não de um dado oficial.",
+      "fontes": []
+    },
+    {
+      "id": "l23",
+      "candidato": "lula",
+      "hora": "~23:00",
+      "frase": "Você (Flávio) disse que quer um modelo igual ao do Milei.",
+      "selo": "naocomprovavel",
+      "explicacao": "Não encontramos registro de Flávio dizendo que quer um modelo igual ao de Milei. Ele já elogiou o governo argentino, mas o plano registrado no TSE não propõe copiar o modelo.",
+      "fontes": []
     }
   ]
 }

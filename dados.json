@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:46",
+  "atualizado": "23/10, 23:08",
   "checagens": [
     {
       "id": "f1",
@@ -368,6 +368,103 @@
         {
           "nome": "Boletim Focus via DGABC",
           "url": "https://www.dgabc.com.br/Noticia/4353509/expectativa-para-a-selic-no-fim-de-2026-continua-em-13-25-no-focus-do-bc"
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "A taxa de juro oficial no Brasil hoje está aí em torno de 14%, porque é um governo gastador.",
+      "selo": "semcontexto",
+      "explicacao": "O número está certo: a Selic está em 13,75% ao ano desde setembro de 2026. Mas dizer que os juros estão altos só por causa dos gastos do governo é uma interpretação. A Selic também depende da inflação, do cenário internacional e das decisões do Banco Central, que é autônomo.",
+      "fontes": [
+        {
+          "nome": "Atlas Público / BC",
+          "url": "https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748"
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "Hoje nós tivéssemos uma taxa em torno de 7% (se Bolsonaro tivesse continuado). Hoje estamos em 14, são 7 pontos de diferença.",
+      "selo": "naocomprovavel",
+      "explicacao": "Não existe como saber qual seria a Selic num governo que não aconteceu. Os 7% parecem vir de projeções de mercado feitas em 2022, que não são uma garantia. Hoje a Selic está em 13,75%.",
+      "fontes": []
+    },
+    {
+      "id": "f19",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "Assim que passou do 1º para o 2º turno, com o Flávio Bolsonaro na frente, a taxa de juro por tudo já caiu 2%. Ou seja, já abriu de cara no orçamento (mais de R$ 200 bilhões).",
+      "selo": "falso",
+      "explicacao": "A Selic, que é a taxa oficial, não mudou depois do 1º turno e continua em 13,75% desde setembro. Os juros futuros, que refletem as expectativas do mercado, podem ter caído, mas isso não 'abre' R$ 200 bilhões no Orçamento, e não há registro desse valor.",
+      "fontes": [
+        {
+          "nome": "Atlas Público / BC",
+          "url": "https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748"
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "Então esse é um legado do presidente Jair Bolsonaro, sim (a independência do Banco Central).",
+      "selo": "verdadeiro",
+      "explicacao": "A autonomia formal do Banco Central veio com a Lei Complementar 179, sancionada por Bolsonaro em fevereiro de 2021. O projeto foi aprovado pelo Congresso com apoio do governo.",
+      "fontes": []
+    },
+    {
+      "id": "f21",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "Recorde de mulheres assassinadas.",
+      "selo": "semcontexto",
+      "explicacao": "Os feminicídios bateram recorde em 2025, com 1.571 casos, segundo o Anuário Brasileiro de Segurança Pública. Mas o total de mulheres assassinadas caiu, de 3.934 em 2022 para 3.539 em 2025. O recorde é só dos feminicídios.",
+      "fontes": [
+        {
+          "nome": "Correio da Manhã (jul/2026)",
+          "url": "https://www.correiodamanha.com.br/nacional/brasil/2026/07/304588-feminicidios-atingem-recorde-no-brasil-enquanto-homicidios-recuam.html"
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "São os estados mais violentos do Brasil (os estados do Nordeste).",
+      "selo": "exagerado",
+      "explicacao": "Vários estados do Nordeste estão entre os mais violentos do país, e a Bahia tem a 2ª maior taxa de mortes violentas. Mas o estado mais violento é o Amapá, na região Norte, e nem todo estado nordestino está no topo do ranking.",
+      "fontes": [
+        {
+          "nome": "Jornal Grande Bahia (Anuário 2026)",
+          "url": "https://jornalgrandebahia.com.br/?p=1372041"
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "O Lula votou contra a Constituição de 88, que criou o SUS.",
+      "selo": "semcontexto",
+      "explicacao": "Em 1988, a bancada do PT, com Lula como deputado constituinte, votou contra o texto final da Constituição, mas assinou a Carta depois. A rejeição era ao texto como um todo, não ao SUS, que o PT defendia.",
+      "fontes": []
+    },
+    {
+      "id": "f24",
+      "candidato": "flavio",
+      "hora": "~22:50",
+      "frase": "Faltando um pouquinho tempo à eleição, ele te lembrou de você e te deu um reajuste de 3 reais por dia.",
+      "selo": "verdadeiro",
+      "explicacao": "O governo reajustou o Bolsa Família em cerca de 15%, e o piso passou de R$ 600 para R$ 691 (cerca de R$ 3 a mais por dia). O reajuste foi anunciado em setembro e começou a valer em outubro, pouco antes da eleição.",
+      "fontes": [
+        {
+          "nome": "Mercado & Consumo (set/2026)",
+          "url": "https://mercadoeconsumo.com.br/17/09/2026/economia/governo-reajusta-bolsa-familia-em-15-e-eleva-valor-minimo-para-r-691/amp/"
         }
       ]
     }

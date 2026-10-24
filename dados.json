@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:40",
+  "atualizado": "23/10, 22:46",
   "checagens": [
     {
       "id": "f1",
@@ -306,6 +306,70 @@
       "selo": "verdadeiro",
       "explicacao": "O maior Plano Safra do governo Bolsonaro foi de cerca de R$ 340,9 bilhões (2022/23). Nos anos de Lula, os planos ficaram entre R$ 364 bilhões e R$ 516 bilhões. Mas atenção: o Plano Safra é crédito oferecido aos produtores, não investimento direto do governo.",
       "fontes": []
+    },
+    {
+      "id": "f11",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "Antigamente, no governo dele, o Bolsa Família era ali, 75 reais, 120 reais que você recebia. Bolsonaro passou o mínimo para R$ 600.",
+      "selo": "semcontexto",
+      "explicacao": "Os valores antigos de R$ 75 ou R$ 120 são de mais de dez anos atrás, sem correção pela inflação. O valor médio de cerca de R$ 190 já era o do começo do governo Bolsonaro, em 2019. Os R$ 600 vieram no Auxílio Brasil só de agosto a dezembro de 2022, aprovados pelo Congresso como temporários. Antes disso o valor era R$ 400.",
+      "fontes": []
+    },
+    {
+      "id": "f12",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "Com a época do presidente Bolsonaro, você lembra que o Bolsa Família... foi o Bolsonaro que deu no mínimo 600 reais.",
+      "selo": "semcontexto",
+      "explicacao": "Bolsonaro pagou R$ 600 no Auxílio Brasil, mas só de agosto a dezembro de 2022, em ano eleitoral e por emenda aprovada pelo Congresso. O valor previsto para 2023 voltava a R$ 400. O piso permanente de R$ 600 foi fixado em 2023, no novo Bolsa Família.",
+      "fontes": []
+    },
+    {
+      "id": "f13",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "Com os R$ 600 do Bolsa Família de antes dava para encher um carrinho de compras, e hoje não enche mais.",
+      "selo": "semcontexto",
+      "explicacao": "O valor mínimo do Bolsa Família hoje é R$ 691, depois de um reajuste de 15% em outubro de 2026, ou seja, maior que os R$ 600 de 2022. Se o carrinho enche ou não depende dos preços dos alimentos, que subiram nos dois governos.",
+      "fontes": [
+        {
+          "nome": "Mercado & Consumo (set/2026)",
+          "url": "https://mercadoeconsumo.com.br/17/09/2026/economia/governo-reajusta-bolsa-familia-em-15-e-eleva-valor-minimo-para-r-691/amp/"
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "Sabe quem votou contra o marco do saneamento lá no Congresso Nacional? A bancada do PT.",
+      "selo": "verdadeiro",
+      "explicacao": "Em 2020, a bancada do PT votou contra o novo marco legal do saneamento (Lei 14.026/2020) na Câmara e no Senado, e o partido orientou voto contrário.",
+      "fontes": []
+    },
+    {
+      "id": "f15",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "O marco do saneamento foi feito para garantir que mais de 90% dos brasileiros tenham acesso a água e esgoto tratados até 2033.",
+      "selo": "verdadeiro",
+      "explicacao": "A Lei 14.026/2020, sancionada por Bolsonaro, estabelece como meta que 99% da população tenha água potável e 90% tenha coleta e tratamento de esgoto até 2033.",
+      "fontes": []
+    },
+    {
+      "id": "f16",
+      "candidato": "flavio",
+      "hora": "~22:35",
+      "frase": "O Brasil tem uma das maiores taxas de juros do mundo.",
+      "selo": "verdadeiro",
+      "explicacao": "Com a Selic em torno de 14% ao ano e um juro real de cerca de 9%, o Brasil está entre os países com os juros reais mais altos do mundo.",
+      "fontes": [
+        {
+          "nome": "Boletim Focus via DGABC",
+          "url": "https://www.dgabc.com.br/Noticia/4353509/expectativa-para-a-selic-no-fim-de-2026-continua-em-13-25-no-focus-do-bc"
+        }
+      ]
     }
   ]
 }

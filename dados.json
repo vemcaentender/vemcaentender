@@ -1,6 +1,6 @@
 {
-  "status": "aovivo",
-  "atualizado": "23/10, 23:30",
+  "status": "encerrado",
+  "atualizado": "24/10, 08:20 (revisão final)",
   "checagens": [
     {
       "id": "f1",
@@ -35,8 +35,8 @@
       "candidato": "flavio",
       "hora": "21:47",
       "frase": "Neste ano, o TCU acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo.",
-      "selo": "falso",
-      "explicacao": "O dado mais recente do TCU, de abril de 2026, aponta 4.215 obras federais paralisadas (18,8% do total), não 11.500. As 11.469 obras citadas são do levantamento de abril de 2025, ou seja, o relatório não é 'deste ano'.",
+      "selo": "semcontexto",
+      "explicacao": "O número existiu: o TCU contou 11.469 obras federais paradas em abril de 2025, e cerca de 11,9 mil no período de 2022 a 2024. Mas o dado está desatualizado. Em abril de 2026, o TCU contou 4.215 obras paralisadas. E a conta inclui obras com dinheiro federal começadas em governos anteriores, não só 'do atual governo'.",
       "fontes": [
         {
           "nome": "O Povo (23/10/2026)",
@@ -45,9 +45,13 @@
         {
           "nome": "Aos Fatos via Tribuna do Planalto",
           "url": "https://tribunadoplanalto.com.br/debate-na-globo-flavio-bolsonaro-usa-dado-desatualizado-sobre-obras-paralisadas-aponta-checagem-do-aos-fatos/"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
         }
       ],
-      "correcao": "selo alterado de 'Sem contexto' para 'Falso' após confirmarmos o dado do TCU de abril de 2026."
+      "correcao": "na noite do debate, mudamos este selo de 'Sem contexto' para 'Falso'. Depois de revisar com calma, voltamos para 'Sem contexto': o número citado é real, mas está desatualizado e não é só do governo atual. Agência Lupa e Aos Fatos chegaram à mesma conclusão."
     },
     {
       "id": "l1",
@@ -92,11 +96,19 @@
       "hora": "21:49",
       "frase": "Nós herdamos 6 mil obras paradas.",
       "selo": "semcontexto",
-      "explicacao": "O número se parece com as 5.662 obras paradas só da educação, segundo o próprio governo. Somando a saúde, eram 11.151 obras inacabadas. E o TCU contava cerca de 8,5 mil obras paralisadas no fim de 2022. Ou seja, os 6 mil ficam abaixo do que os dados mostram.",
+      "explicacao": "O TCU contava cerca de 8,6 mil obras federais paradas em agosto de 2022 e 8.603 em abril de 2023. O número dito por Lula, 6 mil, está abaixo do que ele herdou. Hoje o TCU conta 4.215 obras paradas.",
       "fontes": [
         {
           "nome": "Correio Braziliense (nov/2023)",
           "url": "https://www.correiobraziliense.com.br/politica/2023/11/6054064-lula-sanciona-lei-para-retomar-obras-inacabadas-de-educacao-e-saude.html"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
         }
       ]
     },
@@ -148,11 +160,15 @@
       "hora": "~22:00",
       "frase": "Nós estamos fazendo uma rodovia muito importante que ninguém teve coragem de fazer, que liga Porto Velho a Manaus, que é a BR-319.",
       "selo": "semcontexto",
-      "explicacao": "O governo abriu licitação para asfaltar o trecho do meio da BR-319, dividido em quatro lotes, com homologação prevista para maio e junho de 2026. Até maio, a ordem de serviço ainda não tinha sido assinada. 'Estamos fazendo' pode exagerar a fase em que a obra realmente está.",
+      "explicacao": "A BR-319 foi construída entre 1968 e 1976, na ditadura, e depois se deteriorou. O governo Bolsonaro emitiu a licença ambiental em 2022. Obras de recuperação foram retomadas no governo Lula, em 2024, e a pavimentação do 'trecho do meio' estava em licitação em 2026. Dizer que 'ninguém teve coragem' ignora essa história.",
       "fontes": [
         {
           "nome": "Agência iNFRA (mai/2026)",
           "url": "https://agenciainfra.com/blog/?p=41687"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
         }
       ]
     },
@@ -177,7 +193,12 @@
       "frase": "A taxa de juros lá chegou a 100%.",
       "selo": "verdadeiro",
       "explicacao": "A taxa básica de juros da Argentina passou de 100% em 2023 e chegou a 118% ao ano em agosto daquele ano, ainda no governo de Alberto Fernández, antes de Milei.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Forbes Brasil (ago/2023)",
+          "url": "https://forbes.com.br/forbes-money/2023/08/bc-da-argentina-desvaloriza-peso-e-aumenta-taxa-basica-de-juros-para-118-apos-eleicao/"
+        }
+      ]
     },
     {
       "id": "f6",
@@ -213,6 +234,10 @@
         {
           "nome": "Revista Cultivar",
           "url": "https://www.revistacultivar.com.br/noticias/centro-oeste-lidera-producao-agricola-brasileira"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
         }
       ]
     },
@@ -221,8 +246,8 @@
       "candidato": "flavio",
       "hora": "~22:20",
       "frase": "Você pegou 4 anos e já gastou mais de R$ 400 bilhões para tentar se reeleger.",
-      "selo": "semcontexto",
-      "explicacao": "Existe um levantamento do Poder360 que soma R$ 403,2 bilhões em medidas do governo no ano eleitoral, mas outras estimativas ficam entre R$ 180 e R$ 295 bilhões. A diferença é o que entra na conta: boa parte é crédito e financiamento, não gasto direto do Orçamento. E não há como provar que o objetivo das medidas era a reeleição.",
+      "selo": "exagerado",
+      "explicacao": "Um levantamento do Estadão soma R$ 405 bilhões em medidas do governo em 2026, mas esse total inclui R$ 73,2 bilhões em renúncias fiscais e muito crédito. Só R$ 51,1 bilhões ficam fora do Orçamento. Outras contas vão de R$ 180 a R$ 354 bilhões. E não há como provar que o objetivo era a reeleição.",
       "fontes": [
         {
           "nome": "Poder360",
@@ -231,8 +256,13 @@
         {
           "nome": "Money Times",
           "url": "https://www.moneytimes.com.br/trem-da-alegria-pacote-de-lula-para-2026-pode-custar-ate-r-295-bilhoes-e-dificultar-equilibrio-diz-gestora-jcav/"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
         }
-      ]
+      ],
+      "correcao": "selo revisado de 'Sem contexto' para 'Exagerado' depois do debate, com dados mais detalhados."
     },
     {
       "id": "f10",
@@ -254,8 +284,13 @@
       "hora": "~22:30",
       "frase": "Na Amazônia, (o governo Bolsonaro deixou) totalmente desprotegido.",
       "selo": "exagerado",
-      "explicacao": "O desmatamento subiu e a fiscalização ambiental enfraqueceu no governo Bolsonaro. Em 2021, segundo o Prodes/INPE, o desmatamento na Amazônia passou de 13 mil km², o maior desde 2006. Mas 'totalmente desprotegida' é exagero: órgãos como Ibama e PF e as Forças Armadas continuaram atuando na região.",
-      "fontes": []
+      "explicacao": "O desmatamento subiu e a fiscalização enfraqueceu no governo Bolsonaro: em 2021, o INPE registrou 13,2 mil km² desmatados na Amazônia, a maior taxa desde 2006. Mas 'totalmente desprotegida' é exagero: Ibama, PF e Forças Armadas continuaram atuando na região.",
+      "fontes": [
+        {
+          "nome": "Correio Braziliense (INPE, nov/2021)",
+          "url": "https://www.correiobraziliense.com.br/brasil/2021/11/4964280-desmatamento-na-amazonia-tem-a-maior-taxa-em-15-anos.html"
+        }
+      ]
     },
     {
       "id": "l10",
@@ -264,7 +299,12 @@
       "frase": "Aliás, eles anularam o Fundo da Amazônia.",
       "selo": "semcontexto",
       "explicacao": "O Fundo Amazônia não foi anulado, foi paralisado. Em 2019, o governo Bolsonaro extinguiu os comitês que geriam o fundo, e os repasses pararam. O STF mandou reativar em 2022, e o fundo voltou a funcionar em 2023.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Pública (2022)",
+          "url": "https://apublica.org/2022/12/paralisacao-do-fundo-amazonia-fragilizou-orgaos-como-ibama/"
+        }
+      ]
     },
     {
       "id": "l11",
@@ -286,6 +326,10 @@
         {
           "nome": "DGABC",
           "url": "https://www.dgabc.com.br/Noticia/4352516/de-paula-governo-lula-abriu-700-novos-mercados-contra-241-mercados-do-governo-anterior"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
         }
       ]
     },
@@ -296,7 +340,16 @@
       "frase": "Eu voltei em 2023 com 33 milhões de pessoas passando fome.",
       "selo": "verdadeiro",
       "explicacao": "O inquérito da Rede PENSSAN, de 2022, apontou 33,1 milhões de brasileiros em situação de fome (insegurança alimentar grave), no fim do governo anterior.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Idec / Rede PENSSAN",
+          "url": "https://idec.org.br/noticia/em-2022-33-milhoes-de-brasileiros-passam-fome-no-brasil"
+        },
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "l14",
@@ -305,7 +358,12 @@
       "frase": "Em algum momento do governo do pai dele houve investimento no agronegócio como houve no meu governo?",
       "selo": "verdadeiro",
       "explicacao": "O maior Plano Safra do governo Bolsonaro foi de cerca de R$ 340,9 bilhões (2022/23). Nos anos de Lula, os planos ficaram entre R$ 364 bilhões e R$ 516 bilhões. Mas atenção: o Plano Safra é crédito oferecido aos produtores, não investimento direto do governo.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Diario de Pernambuco (Plano Safra 25/26)",
+          "url": "https://www.diariodepernambuco.com.br/economia/2025/07/7793224-plano-safra-planalto-confirma-5162-bi-para-agricultura-empresarial.html"
+        }
+      ]
     },
     {
       "id": "f11",
@@ -314,7 +372,12 @@
       "frase": "Antigamente, no governo dele, o Bolsa Família era ali, 75 reais, 120 reais que você recebia. Bolsonaro passou o mínimo para R$ 600.",
       "selo": "semcontexto",
       "explicacao": "Os valores antigos de R$ 75 ou R$ 120 são de mais de dez anos atrás, sem correção pela inflação. O valor médio de cerca de R$ 190 já era o do começo do governo Bolsonaro, em 2019. Os R$ 600 vieram no Auxílio Brasil só de agosto a dezembro de 2022, aprovados pelo Congresso como temporários. Antes disso o valor era R$ 400.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "f12",
@@ -323,7 +386,12 @@
       "frase": "Com a época do presidente Bolsonaro, você lembra que o Bolsa Família... foi o Bolsonaro que deu no mínimo 600 reais.",
       "selo": "semcontexto",
       "explicacao": "Bolsonaro pagou R$ 600 no Auxílio Brasil, mas só de agosto a dezembro de 2022, em ano eleitoral e por emenda aprovada pelo Congresso. O valor previsto para 2023 voltava a R$ 400. O piso permanente de R$ 600 foi fixado em 2023, no novo Bolsa Família.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "f13",
@@ -346,7 +414,12 @@
       "frase": "Sabe quem votou contra o marco do saneamento lá no Congresso Nacional? A bancada do PT.",
       "selo": "verdadeiro",
       "explicacao": "Em 2020, a bancada do PT votou contra o novo marco legal do saneamento (Lei 14.026/2020) na Câmara e no Senado, e o partido orientou voto contrário.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "f15",
@@ -355,7 +428,12 @@
       "frase": "O marco do saneamento foi feito para garantir que mais de 90% dos brasileiros tenham acesso a água e esgoto tratados até 2033.",
       "selo": "verdadeiro",
       "explicacao": "A Lei 14.026/2020, sancionada por Bolsonaro, estabelece como meta que 99% da população tenha água potável e 90% tenha coleta e tratamento de esgoto até 2033.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "f16",
@@ -368,6 +446,10 @@
         {
           "nome": "Boletim Focus via DGABC",
           "url": "https://www.dgabc.com.br/Noticia/4353509/expectativa-para-a-selic-no-fim-de-2026-continua-em-13-25-no-focus-do-bc"
+        },
+        {
+          "nome": "Atlas Público / BC",
+          "url": "https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748"
         }
       ]
     },
@@ -390,9 +472,15 @@
       "candidato": "flavio",
       "hora": "~22:50",
       "frase": "Hoje nós tivéssemos uma taxa em torno de 7% (se Bolsonaro tivesse continuado). Hoje estamos em 14, são 7 pontos de diferença.",
-      "selo": "naocomprovavel",
-      "explicacao": "Não existe como saber qual seria a Selic num governo que não aconteceu. Os 7% parecem vir de projeções de mercado feitas em 2022, que não são uma garantia. Hoje a Selic está em 13,75%.",
-      "fontes": []
+      "selo": "semcontexto",
+      "explicacao": "Não dá pra saber qual seria a Selic num governo que não aconteceu. O mercado (Boletim Focus) chegou a projetar 7,75% para 2025. Mas, em outubro de 2022, ainda no governo Bolsonaro, a Selic já estava em 13,75%, praticamente o mesmo patamar de hoje.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "correcao": "selo revisado de 'Não dá pra comprovar' para 'Sem contexto' depois do debate."
     },
     {
       "id": "f19",
@@ -415,7 +503,12 @@
       "frase": "Então esse é um legado do presidente Jair Bolsonaro, sim (a independência do Banco Central).",
       "selo": "verdadeiro",
       "explicacao": "A autonomia formal do Banco Central veio com a Lei Complementar 179, sancionada por Bolsonaro em fevereiro de 2021. O projeto foi aprovado pelo Congresso com apoio do governo.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Congresso em Foco (2021)",
+          "url": "https://congressoemfoco.com.br/economia/bolsonaro-sanciona-autonomia-do-banco-central-com-vetos-veja-integra-da-lei"
+        }
+      ]
     },
     {
       "id": "f21",
@@ -452,7 +545,12 @@
       "frase": "O Lula votou contra a Constituição de 88, que criou o SUS.",
       "selo": "semcontexto",
       "explicacao": "Em 1988, a bancada do PT, com Lula como deputado constituinte, votou contra o texto final da Constituição, mas assinou a Carta depois. A rejeição era ao texto como um todo, não ao SUS, que o PT defendia.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Fundação Perseu Abramo",
+          "url": "https://fpabramo.org.br/evento/o-pt-no-processo-constituinte/"
+        }
+      ]
     },
     {
       "id": "f24",
@@ -474,8 +572,17 @@
       "hora": "~23:00",
       "frase": "A economia brasileira voltou a crescer (depois de anos sem crescer acima de 3%) porque nós conquistamos respeito.",
       "selo": "falso",
-      "explicacao": "O PIB cresceu acima de 3% em outros anos depois de 2010: 3,9% em 2011, ainda com Dilma, e 4,8% em 2021, no governo Bolsonaro, na recuperação depois da pandemia. A economia cresceu acima de 3% em 2023 e 2024, mas não é verdade que isso não acontecia havia anos. A causa ('conquistamos respeito') é opinião.",
-      "fontes": []
+      "explicacao": "Segundo o IBGE, o PIB cresceu 3% ou mais várias vezes depois de 2010: 3,9% em 2011, 3,0% em 2013, 4,8% em 2021 e 3,0% em 2022. Lula já repetiu essa frase em outras ocasiões. A causa ('conquistamos respeito') é opinião.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ]
     },
     {
       "id": "l16",
@@ -484,7 +591,12 @@
       "frase": "Henrique Meirelles ficou 8 anos (na presidência do Banco Central) e eu não troquei.",
       "selo": "verdadeiro",
       "explicacao": "Henrique Meirelles presidiu o Banco Central de 2003 a 2010, durante os oito anos dos dois primeiros mandatos de Lula, sem ser trocado.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "IstoÉ Dinheiro (2010)",
+          "url": "https://istoedinheiro.com.br/com-copom-meirelles-encerrou-ciclo-de-8-anos"
+        }
+      ]
     },
     {
       "id": "l17",
@@ -492,8 +604,17 @@
       "hora": "~23:00",
       "frase": "Ele (Flávio) foi o único deputado estadual do Rio de Janeiro a votar contra o aumento da licença-maternidade.",
       "selo": "verdadeiro",
-      "explicacao": "Em 2009, Flávio Bolsonaro, então deputado estadual, foi o único da Assembleia do Rio (Alerj) a votar contra o projeto que ampliou a licença-maternidade de 4 para 6 meses para servidoras estaduais. O fato foi confirmado por várias agências de checagem.",
-      "fontes": []
+      "explicacao": "Em 2009, a Assembleia do Rio aprovou por 45 votos a 1 a ampliação da licença-maternidade das servidoras estaduais de 4 para 6 meses. O único voto contrário foi o de Flávio Bolsonaro.",
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/matheus-leitao/tres-historias-por-tras-das-perguntas-de-lula-a-flavio-sobre-mulheres"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ]
     },
     {
       "id": "l18",
@@ -502,7 +623,12 @@
       "frase": "No primeiro (Desenrola) atendemos 15 milhões de pessoas.",
       "selo": "verdadeiro",
       "explicacao": "Segundo o Ministério da Fazenda, o Desenrola Brasil (2023-2024) beneficiou cerca de 15 milhões de pessoas. O dado é do próprio governo.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Folha PE / Fazenda",
+          "url": "https://www.folhape.com.br/economia/desenrola-brasil-beneficiou-15-milhoes-de-pessoas-informa-fazenda/337240/"
+        }
+      ]
     },
     {
       "id": "l19",
@@ -520,7 +646,12 @@
       "frase": "Nós fizemos a Lei Geral da Pequena e Média Empresa, porque nós queremos que o empreendedorismo vença nesse país.",
       "selo": "verdadeiro",
       "explicacao": "A Lei Geral da Micro e Pequena Empresa (Lei Complementar 123), que criou o Simples Nacional, é de dezembro de 2006, no primeiro governo Lula. O nome certo é 'Micro e Pequena', não 'Pequena e Média'.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "l21",
@@ -528,8 +659,13 @@
       "hora": "~23:00",
       "frase": "Na Argentina, a pobreza chegou a 40%.",
       "selo": "verdadeiro",
-      "explicacao": "Segundo o INDEC, órgão oficial de estatística da Argentina, a pobreza passou de 40%: estava em 41,7% no fim de 2023 e chegou a 52,9% no 1º semestre de 2024, já com Milei. Depois caiu, e hoje está perto de 32%.",
-      "fontes": []
+      "explicacao": "Segundo o INDEC, a pobreza na Argentina já estava em 41,7% no fim de 2023, antes de Milei. Ela chegou a 52,9% no 1º semestre de 2024, já com Milei. Depois caiu e estava em 32,3% no 1º semestre de 2026.",
+      "fontes": [
+        {
+          "nome": "Folha de Pernambuco (set/2026)",
+          "url": "https://www.folhape.com.br/noticias/pobreza-cresce-na-argentina-e-atinge-um-terco-da-populacao/514648/"
+        }
+      ]
     },
     {
       "id": "l22",
@@ -554,9 +690,19 @@
       "candidato": "flavio",
       "hora": "~23:15",
       "frase": "É o pai do Tigrinho, ele é o pai do Cassino Online, ele criou, ele liberou.",
-      "selo": "semcontexto",
-      "explicacao": "As apostas de quota fixa (bets) foram legalizadas em 2018, no governo Temer (Lei 13.756). O governo Lula regulamentou e passou a tributar o setor a partir de 2023 (Lei 14.790). Ou seja, Lula não criou as bets, mas o funcionamento regulado veio na gestão dele.",
-      "fontes": []
+      "selo": "falso",
+      "explicacao": "Lula não criou as bets. Elas foram legalizadas em 2018, no governo Temer (Lei 13.756). O governo Lula regulamentou e passou a tributar o setor a partir de 2023 (Lei 14.790).",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ],
+      "correcao": "selo revisado de 'Sem contexto' para 'Falso' depois do debate: a fala diz que Lula 'criou', o que não aconteceu."
     },
     {
       "id": "f26",
@@ -565,7 +711,12 @@
       "frase": "A sua política é de desencarceramento. Os presos são soltos porque não tem vaga em presídio.",
       "selo": "semcontexto",
       "explicacao": "Não existe regra que solte presos automaticamente por falta de vaga. Mas uma súmula do STF, de 2016, diz que a falta de vaga no regime adequado não pode manter o preso num regime mais duro, o que pode levar a regime semiaberto ou domiciliar. A regra é do Judiciário, não uma política do governo Lula.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Súmula Vinculante 56 (Conjur)",
+          "url": "https://www.conjur.com.br/?p=372177"
+        }
+      ]
     },
     {
       "id": "f27",
@@ -573,8 +724,13 @@
       "hora": "~23:15",
       "frase": "São mais de 80 milhões de brasileiros com contas atrasadas, endividados.",
       "selo": "verdadeiro",
-      "explicacao": "Segundo o Mapa da Inadimplência da Serasa, o Brasil tem cerca de 80 milhões de pessoas com contas em atraso, um recorde da série.",
-      "fontes": []
+      "explicacao": "Segundo a Serasa, o Brasil tinha 83,9 milhões de pessoas inadimplentes em agosto de 2026, perto do recorde da série.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ]
     },
     {
       "id": "f28",
@@ -583,7 +739,16 @@
       "frase": "Nós instalamos mais de 21.300 pontos de internet em vários locais do Brasil, atingindo mais de 3.100 cidades.",
       "selo": "verdadeiro",
       "explicacao": "O Ministério das Comunicações informou cerca de 21,3 mil pontos do programa Wi-Fi Brasil instalados até dezembro de 2022, em aproximadamente 3,2 mil municípios. O dado é do próprio governo da época.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Minha Operadora (dez/2022)",
+          "url": "https://www.minhaoperadora.com.br/?p=109654"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ]
     },
     {
       "id": "f29",
@@ -591,8 +756,13 @@
       "hora": "~23:15",
       "frase": "Com essa dívida pública de 11 trilhões de reais, a gente está falando por ano de quase 1 trilhão de reais (de juros).",
       "selo": "verdadeiro",
-      "explicacao": "Segundo o Banco Central, a dívida bruta do governo passa de R$ 11 trilhões, e os juros pagos em 12 meses ficaram perto de R$ 1 trilhão. A ordem de grandeza está certa.",
-      "fontes": []
+      "explicacao": "Segundo o Banco Central, a dívida bruta do governo geral (União, estados e municípios) chegou a R$ 11,1 trilhões em agosto de 2026, ou 82,9% do PIB. Os juros pagos em 12 meses somaram R$ 1,18 trilhão. A dívida só da União é de R$ 9,3 trilhões.",
+      "fontes": [
+        {
+          "nome": "Tribuna PR / BC",
+          "url": "https://www.tribunapr.com.br/noticias/economia/divida-publica-brasileira-atinge-r-111-trilhoes-em-agosto-de-2026/"
+        }
+      ]
     },
     {
       "id": "f30",
@@ -601,7 +771,12 @@
       "frase": "A tabela SUS paga R$ 10 para um médico por consulta.",
       "selo": "verdadeiro",
       "explicacao": "Na tabela nacional do SUS (SIGTAP), a consulta médica especializada vale R$ 10, um valor sem reajuste há muitos anos. Mas estados e municípios costumam complementar esse pagamento.",
-      "fontes": []
+      "fontes": [
+        {
+          "nome": "Conselho Federal de Medicina",
+          "url": "https://portal.cfm.org.br/noticias/honorarios-na-tabela-sus-valores-pagos-tem-perdas-de-ate-1-300/"
+        }
+      ]
     },
     {
       "id": "f31",
@@ -620,6 +795,329 @@
       "selo": "naocomprovavel",
       "explicacao": "Não existe uma lista pública das promessas, nem um balanço independente que permita calcular esse percentual. O governo diz ter executado a maior parte dos recursos destinados ao RS depois das enchentes, mas esse dado é da própria gestão.",
       "fontes": []
+    },
+    {
+      "id": "l24",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "Nunca se exportou tanto (como no nosso governo).",
+      "selo": "verdadeiro",
+      "explicacao": "As exportações bateram recorde em 2025: US$ 348,3 bilhões, segundo o MDIC. De janeiro a setembro de 2026, cresceram mais 10,4%.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "l25",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "Fizemos o perdão de uma dívida de quase 15 bilhões para 4 milhões de (microempreendedores).",
+      "selo": "verdadeiro",
+      "explicacao": "Uma lei sancionada em 21/10/2026 perdoa dívidas de MEIs. A estimativa oficial é de 3,6 milhões de beneficiados e R$ 12,57 bilhões em dívidas federais, números um pouco abaixo dos citados.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "l26",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "(Flávio) está copiando a nossa proposta de compra de dívidas.",
+      "selo": "verdadeiro",
+      "explicacao": "O governo publicou em 25/09/2026 a MP 1.393 (Desenrola 3.0), que prevê a compra e renegociação de dívidas das famílias. A proposta de Flávio é parecida e veio depois.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "l27",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "Nós temos um superávit comercial de quase R$ 85 bilhões.",
+      "selo": "semcontexto",
+      "explicacao": "O número é uma projeção do governo para 2026 inteiro, e em dólares, não em reais: US$ 84,4 bilhões. O saldo já realizado de janeiro a setembro foi de US$ 62,4 bilhões.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "l28",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "Bolsonaro disse que quem tomasse vacina ia virar jacaré.",
+      "selo": "verdadeiro",
+      "explicacao": "Em 17/12/2020, num evento na Bahia, Bolsonaro disse que a vacina da Pfizer poderia ter efeitos colaterais e citou 'se você virar um jacaré, é problema seu'.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "l29",
+      "candidato": "lula",
+      "hora": "debate",
+      "frase": "Nós acabamos com a fome em 2012.",
+      "selo": "exagerado",
+      "explicacao": "O Brasil saiu do Mapa da Fome da ONU (FAO) em 2014, no governo Dilma, não em 2012. Lula deixou a Presidência em 2010, mas as políticas de combate à fome começaram no governo dele.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f33",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Lula defendeu roubar celular para tomar uma cerveja.",
+      "selo": "falso",
+      "explicacao": "O vídeo de 2017 que circula foi editado. No discurso original, Lula falava de violência e desespero econômico, não defendia roubo. A Lupa já tinha desmentido isso em 2020.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f34",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "A barra de chocolate, que antes tinha 120 gramas, agora tem só 80.",
+      "selo": "falso",
+      "explicacao": "Barras de 80 g já existiam em 2022, no governo Bolsonaro, e a redução do tamanho das embalagens (reduflação) acontece aos poucos desde os anos 1990. Não houve uma queda de 120 g para 80 g nos últimos 4 anos.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f35",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Quem concluiu as obras (da transposição do São Francisco) e fez finalmente chegar água até o Nordeste? (Bolsonaro)",
+      "selo": "exagerado",
+      "explicacao": "O governo Bolsonaro inaugurou trechos e levou água a novas áreas, como o Ceará em 2020. Mas a obra começou em 2007, no governo Lula, a água chegou à Paraíba em 2017, com Temer, e a transposição ainda não está totalmente concluída.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f36",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "(A imitação de falta de ar feita por Bolsonaro) foi uma brincadeira.",
+      "selo": "falso",
+      "explicacao": "Em lives de março e maio de 2021, no auge da pandemia, Bolsonaro imitou pessoas com falta de ar enquanto criticava as orientações do Ministério da Saúde.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        },
+        {
+          "nome": "Aos Fatos (23/10/2026)",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f37",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Bolsonaro deu o maior reajuste aos professores (33%).",
+      "selo": "semcontexto",
+      "explicacao": "O reajuste de 33,24% do piso em 2022 foi resultado automático da Lei do Piso, de 2008, sancionada por Lula. O governo Bolsonaro chegou a tentar barrar esse reajuste.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f38",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "O número de moradores de rua dobrou no governo Lula.",
+      "selo": "exagerado",
+      "explicacao": "O Ipea estimava 281.472 pessoas em situação de rua em 2022. O CadÚnico registra 399.809, cerca de 42% a mais, não o dobro. Outra estimativa, da UFMG, indica alta de 51%.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f39",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Vou criar a Casa da Mulher Brasileira.",
+      "selo": "falso",
+      "explicacao": "O programa Casa da Mulher Brasileira já existe desde 2013, criado no governo Dilma, e tem 13 unidades em funcionamento. No governo Bolsonaro, a verba do programa caiu cerca de 90%.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f40",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "A fila para cirurgia de câncer de tireoide passa de 700 dias.",
+      "selo": "verdadeiro",
+      "explicacao": "Um relatório do TCU de 2025 apontou fila de 719 dias para esse tipo de cirurgia.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f41",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "O Brasil voltou a ser um grande cemitério de obras.",
+      "selo": "exagerado",
+      "explicacao": "Segundo o TCU, o número de obras federais paradas caiu de cerca de 8,6 mil (2022) para 4.215 (abril de 2026). Ainda há muitas obras paradas, mas o número diminuiu.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f42",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Lula vai deixar o país quebrado.",
+      "selo": "semcontexto",
+      "explicacao": "A dívida pública está no nível mais alto desde 2021 e houve déficit nas contas em 2024 e 2025. Por outro lado, o PIB cresceu 3,2% em 2023, 3,4% em 2024 e 2,3% em 2025, e o desemprego está baixo. 'Quebrado' não descreve esse quadro.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f43",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Lula é contra a redução da maioridade penal.",
+      "selo": "semcontexto",
+      "explicacao": "Em 2015, Lula criticou uma PEC sobre o tema. Mas em outubro de 2026 ele disse apoiar a redução para 16 anos em crimes hediondos.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f44",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Está faltando até dipirona na Unidade Básica de Saúde.",
+      "selo": "semcontexto",
+      "explicacao": "Não existe levantamento nacional atual sobre falta de dipirona. Esse tipo de remédio é responsabilidade dos municípios, e já houve falta também em 2022.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f45",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "(Lula recebeu) R$ 30 milhões do Vorcaro para o filme dele.",
+      "selo": "naocomprovavel",
+      "explicacao": "A acusação vem de uma reportagem da Veja, mas não há prova do pagamento, e a PGR e a PF negaram a existência do depoimento citado.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f46",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "(A morte da menina Ana Clara) foi em um tiroteio.",
+      "selo": "naocomprovavel",
+      "explicacao": "O Ministério Público do Rio contesta essa versão. Segundo o órgão, não há sinais de troca de tiros, e testemunhas dão outra versão. O caso segue em apuração.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
+    },
+    {
+      "id": "f47",
+      "candidato": "flavio",
+      "hora": "debate",
+      "frase": "Nunca fui investigado (por ligação com milícia).",
+      "selo": "semcontexto",
+      "explicacao": "Em julho de 2026, uma operação da PF investigou emendas ligadas aos Brazão, e um assessor de Flávio negociou emendas com um miliciano condenado. Flávio não é réu, mas o tema já foi alvo de investigação.",
+      "fontes": [
+        {
+          "nome": "Agência Lupa (23/10/2026)",
+          "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+        }
+      ],
+      "posdebate": true
     }
   ]
 }

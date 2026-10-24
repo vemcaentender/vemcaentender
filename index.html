@@ -88,6 +88,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offs
 .expl{margin:0;color:var(--fg);opacity:.9}
 .fontes{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
 .fontes b{font-family:var(--mono);font-weight:500;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.pos{font-size:12px;font-family:var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.expl strong{color:var(--brand);font-weight:700}
 .corr{font-size:13px;color:var(--warn);font-family:var(--mono)}
 .vazio{border:1.5px dashed var(--line);border-radius:14px;padding:28px 20px;text-align:center;color:var(--muted);display:flex;flex-direction:column;gap:8px;align-items:center}
 .vazio svg{width:64px;height:64px;opacity:.9}
@@ -192,7 +194,7 @@ footer b{color:var(--fg)}
   };
   const ORDEM = ["verdadeiro","exagerado","falso","semcontexto","naocomprovavel"];
   const CAND = {lula:"Lula", flavio:"Flávio Bolsonaro"};
-  const STATUS = {embreve:"Começa sexta, 21h20", aovivo:"Ao vivo", encerrado:"Debate encerrado"};
+  const STATUS = {embreve:"Começa sexta, 21h20", aovivo:"Ao vivo", encerrado:"Debate encerrado · revisão final"};
   const INTERVALO = 10000;
 
   let dados = {status:"embreve", checagens:[]};
@@ -266,7 +268,8 @@ footer b{color:var(--fg)}
       return el("li",{class:"card"+(novo?" novo":""), id:"c-"+(x.id||"")},[
         el("div",{class:"card-top"},[ el("span",{class:"quem", text:CAND[x.candidato]||x.candidato}), el("span",{class:"hora", text:x.hora||""}), seloEl(x.selo) ]),
         el("p",{class:"frase", text:x.frase||""}),
-        el("p",{class:"expl", text:x.explicacao||""}),
+        el("p",{class:"expl"},[el("strong",{text:"O que os dados mostram: "}), x.explicacao||""]),
+        x.posdebate ? el("div",{class:"pos", text:"Checado após o debate"}) : null,
         x.correcao ? el("div",{class:"corr", text:"Corrigido: "+x.correcao}) : null,
         (x.fontes&&x.fontes.length) ? fontes : null
       ]);

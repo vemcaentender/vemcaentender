@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:22",
+  "atualizado": "23/10, 22:27",
   "checagens": [
     {
       "id": "f1",
@@ -35,14 +35,19 @@
       "candidato": "flavio",
       "hora": "21:47",
       "frase": "Neste ano, o TCU acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo.",
-      "selo": "semcontexto",
-      "explicacao": "O TCU apontou 11.469 obras paradas, metade das 22.621 com dinheiro federal. Mas o relatório é de julho de 2025, não deste ano. E a conta inclui todas as obras paradas com recurso federal, inclusive as iniciadas em governos anteriores, então não são todas 'do atual governo'.",
+      "selo": "falso",
+      "explicacao": "O dado mais recente do TCU, de abril de 2026, aponta 4.215 obras federais paralisadas (18,8% do total), não 11.500. As 11.469 obras citadas são do levantamento de abril de 2025, ou seja, o relatório não é 'deste ano'.",
       "fontes": [
         {
-          "nome": "TCU (30/07/2025)",
-          "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas"
+          "nome": "O Povo (23/10/2026)",
+          "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/23/flavio-acerta-dados-de-obras-paradas-mas-faz-mencao-desatualizada.html"
+        },
+        {
+          "nome": "Aos Fatos via Tribuna do Planalto",
+          "url": "https://tribunadoplanalto.com.br/debate-na-globo-flavio-bolsonaro-usa-dado-desatualizado-sobre-obras-paralisadas-aponta-checagem-do-aos-fatos/"
         }
-      ]
+      ],
+      "correcao": "selo alterado de 'Sem contexto' para 'Falso' após confirmarmos o dado do TCU de abril de 2026."
     },
     {
       "id": "l1",

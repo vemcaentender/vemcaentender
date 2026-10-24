@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:31",
+  "atualizado": "23/10, 22:40",
   "checagens": [
     {
       "id": "f1",
@@ -247,6 +247,65 @@
           "url": "https://www.opovo.com.br/noticias/ceara/2025/09/16/amp/cv-x-gde-saiba-como-o-comando-vermelho-tenta-dominar-o-ceara.html"
         }
       ]
+    },
+    {
+      "id": "l9",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Na Amazônia, (o governo Bolsonaro deixou) totalmente desprotegido.",
+      "selo": "exagerado",
+      "explicacao": "O desmatamento subiu e a fiscalização ambiental enfraqueceu no governo Bolsonaro. Em 2021, segundo o Prodes/INPE, o desmatamento na Amazônia passou de 13 mil km², o maior desde 2006. Mas 'totalmente desprotegida' é exagero: órgãos como Ibama e PF e as Forças Armadas continuaram atuando na região.",
+      "fontes": []
+    },
+    {
+      "id": "l10",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Aliás, eles anularam o Fundo da Amazônia.",
+      "selo": "semcontexto",
+      "explicacao": "O Fundo Amazônia não foi anulado, foi paralisado. Em 2019, o governo Bolsonaro extinguiu os comitês que geriam o fundo, e os repasses pararam. O STF mandou reativar em 2022, e o fundo voltou a funcionar em 2023.",
+      "fontes": []
+    },
+    {
+      "id": "l11",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Nós fizemos 40 novos institutos federais e novas universidades.",
+      "selo": "semcontexto",
+      "explicacao": "A lei de 2008, do governo Lula, criou 38 institutos federais. Mas eles vieram principalmente da reunião e transformação de escolas técnicas que já existiam, e não de 40 instituições do zero. Os governos Lula também criaram novas universidades federais e muitos campi.",
+      "fontes": []
+    },
+    {
+      "id": "l12",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Abrimos 700 novos mercados nesse país.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o governo, foram 700 aberturas de mercado para o agronegócio desde 2023, contra 241 no governo anterior. Mas cada 'abertura' é a autorização de um produto para um país, e não 700 países novos. O dado é do próprio governo.",
+      "fontes": [
+        {
+          "nome": "DGABC",
+          "url": "https://www.dgabc.com.br/Noticia/4352516/de-paula-governo-lula-abriu-700-novos-mercados-contra-241-mercados-do-governo-anterior"
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Eu voltei em 2023 com 33 milhões de pessoas passando fome.",
+      "selo": "verdadeiro",
+      "explicacao": "O inquérito da Rede PENSSAN, de 2022, apontou 33,1 milhões de brasileiros em situação de fome (insegurança alimentar grave), no fim do governo anterior.",
+      "fontes": []
+    },
+    {
+      "id": "l14",
+      "candidato": "lula",
+      "hora": "~22:30",
+      "frase": "Em algum momento do governo do pai dele houve investimento no agronegócio como houve no meu governo?",
+      "selo": "verdadeiro",
+      "explicacao": "O maior Plano Safra do governo Bolsonaro foi de cerca de R$ 340,9 bilhões (2022/23). Nos anos de Lula, os planos ficaram entre R$ 364 bilhões e R$ 516 bilhões. Mas atenção: o Plano Safra é crédito oferecido aos produtores, não investimento direto do governo.",
+      "fontes": []
     }
   ]
 }

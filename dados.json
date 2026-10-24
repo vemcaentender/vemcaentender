@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:27",
+  "atualizado": "23/10, 22:31",
   "checagens": [
     {
       "id": "f1",
@@ -213,6 +213,38 @@
         {
           "nome": "Revista Cultivar",
           "url": "https://www.revistacultivar.com.br/noticias/centro-oeste-lidera-producao-agricola-brasileira"
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "candidato": "flavio",
+      "hora": "~22:20",
+      "frase": "Você pegou 4 anos e já gastou mais de R$ 400 bilhões para tentar se reeleger.",
+      "selo": "semcontexto",
+      "explicacao": "Existe um levantamento do Poder360 que soma R$ 403,2 bilhões em medidas do governo no ano eleitoral, mas outras estimativas ficam entre R$ 180 e R$ 295 bilhões. A diferença é o que entra na conta: boa parte é crédito e financiamento, não gasto direto do Orçamento. E não há como provar que o objetivo das medidas era a reeleição.",
+      "fontes": [
+        {
+          "nome": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/pacote-de-bondades-de-lula-soma-r-4032-bi-em-ano-eleitoral/"
+        },
+        {
+          "nome": "Money Times",
+          "url": "https://www.moneytimes.com.br/trem-da-alegria-pacote-de-lula-para-2026-pode-custar-ate-r-295-bilhoes-e-dificultar-equilibrio-diz-gestora-jcav/"
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "candidato": "flavio",
+      "hora": "~22:20",
+      "frase": "Agora, Lula, o que você levou pro Nordeste foi o Comando Vermelho.",
+      "selo": "naocomprovavel",
+      "explicacao": "O Comando Vermelho, facção de origem carioca, realmente se expandiu pelo Nordeste e hoje atua em 1.419 territórios só no Ceará, segundo a Polícia Civil. Mas não existe dado que mostre que um governo 'levou' a facção para a região. A expansão das facções é um processo de vários anos.",
+      "fontes": [
+        {
+          "nome": "O Povo (set/2025)",
+          "url": "https://www.opovo.com.br/noticias/ceara/2025/09/16/amp/cv-x-gde-saiba-como-o-comando-vermelho-tenta-dominar-o-ceara.html"
         }
       ]
     }

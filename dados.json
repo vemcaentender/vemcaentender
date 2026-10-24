@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:10",
+  "atualizado": "23/10, 22:22",
   "checagens": [
     {
       "id": "f1",
@@ -148,6 +148,66 @@
         {
           "nome": "Agência iNFRA (mai/2026)",
           "url": "https://agenciainfra.com/blog/?p=41687"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "candidato": "flavio",
+      "hora": "~22:10",
+      "frase": "Milei começou o governo com 211% de inflação.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o INDEC, órgão oficial de estatística da Argentina, a inflação de 2023 fechou em 211,4%, a maior em três décadas. Milei assumiu em dezembro de 2023.",
+      "fontes": [
+        {
+          "nome": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/2024/01/11/inflacion-en-argentina-se-disparo-a-255-en-diciembre-y-a-2114-en-2023/"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "candidato": "flavio",
+      "hora": "~22:10",
+      "frase": "A taxa de juros lá chegou a 100%.",
+      "selo": "verdadeiro",
+      "explicacao": "A taxa básica de juros da Argentina passou de 100% em 2023 e chegou a 118% ao ano em agosto daquele ano, ainda no governo de Alberto Fernández, antes de Milei.",
+      "fontes": []
+    },
+    {
+      "id": "f6",
+      "candidato": "flavio",
+      "hora": "~22:10",
+      "frase": "Lá na Argentina, a esquerda governou por 20 anos.",
+      "selo": "exagerado",
+      "explicacao": "Os governos kirchneristas e peronistas somaram cerca de 16 anos: Néstor e Cristina Kirchner de 2003 a 2015, e Alberto Fernández de 2019 a 2023. Entre 2015 e 2019 governou Mauricio Macri, de centro-direita.",
+      "fontes": []
+    },
+    {
+      "id": "f7",
+      "candidato": "flavio",
+      "hora": "~22:10",
+      "frase": "O juro real está próximo de 20%.",
+      "selo": "exagerado",
+      "explicacao": "A Selic está em torno de 14% ao ano, com projeção de 13,25% no fim de 2026, e a inflação anda perto de 4% a 5%. Isso dá um juro real de cerca de 9% ao ano. É um dos mais altos do mundo, mas é menos da metade dos 20% citados.",
+      "fontes": [
+        {
+          "nome": "Boletim Focus via DGABC",
+          "url": "https://www.dgabc.com.br/Noticia/4353509/expectativa-para-a-selic-no-fim-de-2026-continua-em-13-25-no-focus-do-bc"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "candidato": "flavio",
+      "hora": "~22:10",
+      "frase": "A região Centro-Oeste é a região que mais produz alimentos no nosso Brasil.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo a Conab, o Centro-Oeste é a maior região produtora de grãos do país, com cerca de metade da safra. Mas 'alimentos' também inclui carnes, leite, frutas e café, em que Sul e Sudeste têm peso grande.",
+      "fontes": [
+        {
+          "nome": "Revista Cultivar",
+          "url": "https://www.revistacultivar.com.br/noticias/centro-oeste-lidera-producao-agricola-brasileira"
         }
       ]
     }

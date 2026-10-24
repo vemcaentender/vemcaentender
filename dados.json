@@ -1,6 +1,6 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 23:16",
+  "atualizado": "23/10, 23:30",
   "checagens": [
     {
       "id": "f1",
@@ -547,6 +547,78 @@
       "frase": "Você (Flávio) disse que quer um modelo igual ao do Milei.",
       "selo": "naocomprovavel",
       "explicacao": "Não encontramos registro de Flávio dizendo que quer um modelo igual ao de Milei. Ele já elogiou o governo argentino, mas o plano registrado no TSE não propõe copiar o modelo.",
+      "fontes": []
+    },
+    {
+      "id": "f25",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "É o pai do Tigrinho, ele é o pai do Cassino Online, ele criou, ele liberou.",
+      "selo": "semcontexto",
+      "explicacao": "As apostas de quota fixa (bets) foram legalizadas em 2018, no governo Temer (Lei 13.756). O governo Lula regulamentou e passou a tributar o setor a partir de 2023 (Lei 14.790). Ou seja, Lula não criou as bets, mas o funcionamento regulado veio na gestão dele.",
+      "fontes": []
+    },
+    {
+      "id": "f26",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "A sua política é de desencarceramento. Os presos são soltos porque não tem vaga em presídio.",
+      "selo": "semcontexto",
+      "explicacao": "Não existe regra que solte presos automaticamente por falta de vaga. Mas uma súmula do STF, de 2016, diz que a falta de vaga no regime adequado não pode manter o preso num regime mais duro, o que pode levar a regime semiaberto ou domiciliar. A regra é do Judiciário, não uma política do governo Lula.",
+      "fontes": []
+    },
+    {
+      "id": "f27",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "São mais de 80 milhões de brasileiros com contas atrasadas, endividados.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o Mapa da Inadimplência da Serasa, o Brasil tem cerca de 80 milhões de pessoas com contas em atraso, um recorde da série.",
+      "fontes": []
+    },
+    {
+      "id": "f28",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "Nós instalamos mais de 21.300 pontos de internet em vários locais do Brasil, atingindo mais de 3.100 cidades.",
+      "selo": "verdadeiro",
+      "explicacao": "O Ministério das Comunicações informou cerca de 21,3 mil pontos do programa Wi-Fi Brasil instalados até dezembro de 2022, em aproximadamente 3,2 mil municípios. O dado é do próprio governo da época.",
+      "fontes": []
+    },
+    {
+      "id": "f29",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "Com essa dívida pública de 11 trilhões de reais, a gente está falando por ano de quase 1 trilhão de reais (de juros).",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o Banco Central, a dívida bruta do governo passa de R$ 11 trilhões, e os juros pagos em 12 meses ficaram perto de R$ 1 trilhão. A ordem de grandeza está certa.",
+      "fontes": []
+    },
+    {
+      "id": "f30",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "A tabela SUS paga R$ 10 para um médico por consulta.",
+      "selo": "verdadeiro",
+      "explicacao": "Na tabela nacional do SUS (SIGTAP), a consulta médica especializada vale R$ 10, um valor sem reajuste há muitos anos. Mas estados e municípios costumam complementar esse pagamento.",
+      "fontes": []
+    },
+    {
+      "id": "f31",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "O território onde a menina de 5 anos foi baleada é dominado por narcoterroristas que Lula defende. O presidente não quer combater os narcoterroristas.",
+      "selo": "naocomprovavel",
+      "explicacao": "Não há registro de que Lula defenda facções criminosas. Dizer que ele 'não quer combater' é uma acusação política sem dado que a comprove. A segurança pública é sobretudo responsabilidade dos estados.",
+      "fontes": []
+    },
+    {
+      "id": "f32",
+      "candidato": "flavio",
+      "hora": "~23:15",
+      "frase": "Lula prometeu um monte de coisa (para o Rio Grande do Sul) e não entregou nem 30% do que prometeu.",
+      "selo": "naocomprovavel",
+      "explicacao": "Não existe uma lista pública das promessas, nem um balanço independente que permita calcular esse percentual. O governo diz ter executado a maior parte dos recursos destinados ao RS depois das enchentes, mas esse dado é da própria gestão.",
       "fontes": []
     }
   ]

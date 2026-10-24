@@ -1,13 +1,155 @@
 {
   "status": "aovivo",
-  "atualizado": "23/10, 22:02",
+  "atualizado": "23/10, 22:10",
   "checagens": [
-    {"id":"f1","candidato":"flavio","hora":"21:47","frase":"Nós pegamos o Brasil lá em 2019 com cerca de 14 mil obras inacabadas.","selo":"verdadeiro","explicacao":"Auditoria do TCU de 2019 encontrou 14.403 obras paralisadas ou inacabadas, de 38.412 analisadas. Os dados foram levantados em 2018, antes da posse de Bolsonaro.","fontes":[{"nome":"TCU – Acórdão 1.079/2019","url":"https://portal.tcu.gov.br/data/files/8F/12/9D/F2/4281671023455957E18818A8/Auditoria_operacional_obras_paralisadas.pdf"}]},
-    {"id":"f2","candidato":"flavio","hora":"21:47","frase":"A gente entregou o Brasil com um pouco mais de 8 mil obras inacabadas.","selo":"verdadeiro","explicacao":"Em 2022 o número de obras paralisadas caiu para cerca de 8,5 mil. Mas em 2023 o próprio TCU apontou que, entre 2019 e 2022, não houve política federal para retomar essas obras.","fontes":[{"nome":"O Povo (2023)","url":"https://www.opovo.com.br/noticias/economia/2023/10/18/tcu-diz-que-nao-existiu-entre-2019-e-2022-politicas-para-obras-paralisadas-e-cobra-medidas.html"}]},
-    {"id":"f3","candidato":"flavio","hora":"21:47","frase":"Neste ano, o TCU acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo.","selo":"semcontexto","explicacao":"O TCU apontou 11.469 obras paradas, metade das 22.621 com dinheiro federal. Mas o relatório é de julho de 2025, não deste ano. E a conta inclui todas as obras paradas com recurso federal, inclusive as iniciadas em governos anteriores, então não são todas 'do atual governo'.","fontes":[{"nome":"TCU (30/07/2025)","url":"https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas"}]},
-    {"id":"l1","candidato":"lula","hora":"21:49","frase":"Em nenhum momento da história do país se investiu tanto em obra de infraestrutura como nós investimos nesses últimos anos.","selo":"exagerado","explicacao":"O investimento total em infraestrutura bateu recorde em 2025 (R$ 280 bilhões previstos), mas 84% veio do setor privado e o investimento público caiu cerca de 11% no ano. A série histórica só começa em 2010. Nos anos 1970, o país investia bem mais em infraestrutura em proporção ao PIB.","fontes":[{"nome":"Barômetro da Infraestrutura EY/Abdib (fev/2026)","url":"https://tiinside.com.br/19/02/2026/investimentos-em-infraestrutura-devem-bater-recorde-em-2025-diz-estudo/"}]},
-    {"id":"l2","candidato":"lula","hora":"21:49","frase":"Nós anunciamos um programa de R$ 1,7 trilhão.","selo":"verdadeiro","explicacao":"O Novo PAC, lançado em agosto de 2023, prevê R$ 1,7 trilhão somando governo federal, estatais, financiamentos e setor privado. Não é tudo dinheiro do governo.","fontes":[{"nome":"SBT News","url":"https://sbtnews.sbt.com.br/noticia/economia/256394-novo-pac-preve-r-17-trilhao-em-investimentos-ate-2026"}]},
-    {"id":"l3","candidato":"lula","hora":"21:49","frase":"Qualquer coisa que ele pensar de infraestrutura, nós fizemos 3 ou 4 vezes mais do que o governo dele.","selo":"naocomprovavel","explicacao":"Lula não disse o que está comparando (dinheiro, quilômetros, obras entregues). Sem isso, não há como medir '3 ou 4 vezes mais'.","fontes":[]},
-    {"id":"l4","candidato":"lula","hora":"21:49","frase":"Nós herdamos 6 mil obras paradas.","selo":"semcontexto","explicacao":"O número se parece com as 5.662 obras paradas só da educação, segundo o próprio governo. Somando a saúde, eram 11.151 obras inacabadas. E o TCU contava cerca de 8,5 mil obras paralisadas no fim de 2022. Ou seja, os 6 mil ficam abaixo do que os dados mostram.","fontes":[{"nome":"Correio Braziliense (nov/2023)","url":"https://www.correiobraziliense.com.br/politica/2023/11/6054064-lula-sanciona-lei-para-retomar-obras-inacabadas-de-educacao-e-saude.html"}]}
+    {
+      "id": "f1",
+      "candidato": "flavio",
+      "hora": "21:47",
+      "frase": "Nós pegamos o Brasil lá em 2019 com cerca de 14 mil obras inacabadas.",
+      "selo": "verdadeiro",
+      "explicacao": "Auditoria do TCU de 2019 encontrou 14.403 obras paralisadas ou inacabadas, de 38.412 analisadas. Os dados foram levantados em 2018, antes da posse de Bolsonaro.",
+      "fontes": [
+        {
+          "nome": "TCU – Acórdão 1.079/2019",
+          "url": "https://portal.tcu.gov.br/data/files/8F/12/9D/F2/4281671023455957E18818A8/Auditoria_operacional_obras_paralisadas.pdf"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "candidato": "flavio",
+      "hora": "21:47",
+      "frase": "A gente entregou o Brasil com um pouco mais de 8 mil obras inacabadas.",
+      "selo": "verdadeiro",
+      "explicacao": "Em 2022 o número de obras paralisadas caiu para cerca de 8,5 mil. Mas em 2023 o próprio TCU apontou que, entre 2019 e 2022, não houve política federal para retomar essas obras.",
+      "fontes": [
+        {
+          "nome": "O Povo (2023)",
+          "url": "https://www.opovo.com.br/noticias/economia/2023/10/18/tcu-diz-que-nao-existiu-entre-2019-e-2022-politicas-para-obras-paralisadas-e-cobra-medidas.html"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "candidato": "flavio",
+      "hora": "21:47",
+      "frase": "Neste ano, o TCU acaba de soltar um relatório que existem mais de 11.500 obras paralisadas do atual governo.",
+      "selo": "semcontexto",
+      "explicacao": "O TCU apontou 11.469 obras paradas, metade das 22.621 com dinheiro federal. Mas o relatório é de julho de 2025, não deste ano. E a conta inclui todas as obras paradas com recurso federal, inclusive as iniciadas em governos anteriores, então não são todas 'do atual governo'.",
+      "fontes": [
+        {
+          "nome": "TCU (30/07/2025)",
+          "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas"
+        }
+      ]
+    },
+    {
+      "id": "l1",
+      "candidato": "lula",
+      "hora": "21:49",
+      "frase": "Em nenhum momento da história do país se investiu tanto em obra de infraestrutura como nós investimos nesses últimos anos.",
+      "selo": "exagerado",
+      "explicacao": "O investimento total em infraestrutura bateu recorde em 2025 (R$ 280 bilhões previstos), mas 84% veio do setor privado e o investimento público caiu cerca de 11% no ano. A série histórica só começa em 2010. Nos anos 1970, o país investia bem mais em infraestrutura em proporção ao PIB.",
+      "fontes": [
+        {
+          "nome": "Barômetro da Infraestrutura EY/Abdib (fev/2026)",
+          "url": "https://tiinside.com.br/19/02/2026/investimentos-em-infraestrutura-devem-bater-recorde-em-2025-diz-estudo/"
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "candidato": "lula",
+      "hora": "21:49",
+      "frase": "Nós anunciamos um programa de R$ 1,7 trilhão.",
+      "selo": "verdadeiro",
+      "explicacao": "O Novo PAC, lançado em agosto de 2023, prevê R$ 1,7 trilhão somando governo federal, estatais, financiamentos e setor privado. Não é tudo dinheiro do governo.",
+      "fontes": [
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/256394-novo-pac-preve-r-17-trilhao-em-investimentos-ate-2026"
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "candidato": "lula",
+      "hora": "21:49",
+      "frase": "Qualquer coisa que ele pensar de infraestrutura, nós fizemos 3 ou 4 vezes mais do que o governo dele.",
+      "selo": "naocomprovavel",
+      "explicacao": "Lula não disse o que está comparando (dinheiro, quilômetros, obras entregues). Sem isso, não há como medir '3 ou 4 vezes mais'.",
+      "fontes": []
+    },
+    {
+      "id": "l4",
+      "candidato": "lula",
+      "hora": "21:49",
+      "frase": "Nós herdamos 6 mil obras paradas.",
+      "selo": "semcontexto",
+      "explicacao": "O número se parece com as 5.662 obras paradas só da educação, segundo o próprio governo. Somando a saúde, eram 11.151 obras inacabadas. E o TCU contava cerca de 8,5 mil obras paralisadas no fim de 2022. Ou seja, os 6 mil ficam abaixo do que os dados mostram.",
+      "fontes": [
+        {
+          "nome": "Correio Braziliense (nov/2023)",
+          "url": "https://www.correiobraziliense.com.br/politica/2023/11/6054064-lula-sanciona-lei-para-retomar-obras-inacabadas-de-educacao-e-saude.html"
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "candidato": "lula",
+      "hora": "~22:00",
+      "frase": "Como nós aprovamos o fim da escala 6 por 1, os trabalhadores vão ter 2 dias pra ficar em casa.",
+      "selo": "verdadeiro",
+      "explicacao": "O Congresso promulgou em 16/10/2026 a Emenda Constitucional 141, que acaba com a escala 6x1 e cria o modelo 5x2, com dois dias de descanso remunerado. A primeira etapa começa em 16/12/2026, e a jornada cai gradualmente de 44 para 40 horas até dez/2027. Quem aprovou foi o Congresso (Senado: 75 a 1), não só o governo.",
+      "fontes": [
+        {
+          "nome": "Correio da Manhã",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/327556-congresso-promulga-fim-da-escala-6x1-com-presenca-de-lula-e-nova-jornada-comeca-em-dezembro.html"
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "candidato": "lula",
+      "hora": "21:49",
+      "frase": "Anunciamos um programa de R$ 1,7 trilhão, do qual quase R$ 800 bilhões já foram executados.",
+      "selo": "verdadeiro",
+      "explicacao": "Segundo o próprio governo, até agosto de 2025 já tinham sido executados R$ 944,8 bilhões do Novo PAC (70,8% da parte prevista até 2026). O valor citado por Lula fica até abaixo disso. Atenção: o dado é do governo, e inclui dinheiro de estatais, financiamentos e setor privado.",
+      "fontes": [
+        {
+          "nome": "O Povo (dez/2025)",
+          "url": "https://www.opovo.com.br/noticias/politica/2025/12/10/novo-pac-708-dos-rs-13-trilhao-ja-foram-executados.html"
+        }
+      ]
+    },
+    {
+      "id": "l7",
+      "candidato": "lula",
+      "hora": "~22:00",
+      "frase": "Nós estamos fazendo a Transnordestina.",
+      "selo": "verdadeiro",
+      "explicacao": "A ferrovia está em obras: 727 km concluídos e 326 km em construção, e a fase 1 (até o Porto do Pecém) estava 81% pronta em abril/2026, com entrega prevista para 2027. Mas a obra começou em 2006, atravessou vários governos e completa 20 anos agora.",
+      "fontes": [
+        {
+          "nome": "Diário do Nordeste (abr/2026)",
+          "url": "https://diariodonordeste.verdesmares.com.br/negocios/com-20-anos-de-obras-o-que-falta-para-a-conclusao-da-transnordestina-1.3754117"
+        }
+      ]
+    },
+    {
+      "id": "l8",
+      "candidato": "lula",
+      "hora": "~22:00",
+      "frase": "Nós estamos fazendo uma rodovia muito importante que ninguém teve coragem de fazer, que liga Porto Velho a Manaus, que é a BR-319.",
+      "selo": "semcontexto",
+      "explicacao": "O governo abriu licitação para asfaltar o trecho do meio da BR-319, dividido em quatro lotes, com homologação prevista para maio e junho de 2026. Até maio, a ordem de serviço ainda não tinha sido assinada. 'Estamos fazendo' pode exagerar a fase em que a obra realmente está.",
+      "fontes": [
+        {
+          "nome": "Agência iNFRA (mai/2026)",
+          "url": "https://agenciainfra.com/blog/?p=41687"
+        }
+      ]
+    }
   ]
 }
